@@ -1,0 +1,6 @@
+{
+  "weight": 1,
+  "foodWeight": 0.15,
+  "maxStep": 4,
+  "maxAnimalNumberPerArea": 200
+}
