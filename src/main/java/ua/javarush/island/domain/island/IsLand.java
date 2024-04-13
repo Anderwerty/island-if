@@ -42,7 +42,16 @@ public class IsLand {
         return tasks;
     }
 
-//    public List<Runnable> provideMoving
+    public void print(){
+        for (int i = 0; i <xSize ; i++) {
+            for (int j = 0; j <ySize ; j++) {
+               Object object = areas[i][j].printStatictic();
+            }
+        }
+//...
+        System.out.println("total: ");
+    }
+
 
     private Area findAreaByCoordinates(Coordinates coordinates) {
         return areas[coordinates.getX()][coordinates.getY()];

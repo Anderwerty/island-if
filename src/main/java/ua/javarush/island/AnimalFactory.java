@@ -1,6 +1,7 @@
 package ua.javarush.island;
 
 import ua.javarush.island.domain.animal.Animal;
+import ua.javarush.island.domain.animal.Dog;
 import ua.javarush.island.domain.animal.Duck;
 
 import java.util.HashMap;
@@ -19,6 +20,7 @@ public final class AnimalFactory {
 
     static {
         CLASS_TO_INSTANCE_SUPPLIER.put(Duck.class, Duck::new);
+        CLASS_TO_INSTANCE_SUPPLIER.put(Dog.class, Dog::new);
         // add for other animals
     }
 
